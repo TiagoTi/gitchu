@@ -7,3 +7,12 @@ install() {
     # this function will make a folder to manager configs files
     mkdir -p $HOME_GITHUB
 }
+
+case "$1" in
+--install)
+    install
+    ;;
+*)
+    install
+    ;;
+esac
