@@ -4,7 +4,7 @@
 
 ```sh
 mkdir -p $HOME/.gitchu
-curl -L https://github.com/TiagoTi/gitchu/releases/download/v0.0.2/gitchu.sh -o $HOME/.gitchu/gitchu && chmod +x $HOME/.gitchu/gitchu
+curl -L https://github.com/TiagoTi/gitchu/releases/download/v0.0.3/gitchu.sh -o $HOME/.gitchu/gitchu && chmod +x $HOME/.gitchu/gitchu
 export PATH=$PATH:$HOME/.gitchu
 ```
 
