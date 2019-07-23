@@ -11,7 +11,7 @@ add-key() {
     echo "please account alias"
     read ACCOUNT_ALIAS
 
-    echo "chose your key"
+    echo "chose your private key name that use to commit"
     ls -la $HOME/.ssh
     echo "chose your key"
     read SSH_KEY
@@ -19,7 +19,7 @@ add-key() {
     echo "please email address"
     read ACCOUNT_EMAIL
 
-    echo "please your name to git repo"
+    echo "please your name (show in commit)"
     read ACCOUNT_NICK
 
     echo $ACCOUNT_ALIAS
