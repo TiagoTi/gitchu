@@ -27,3 +27,15 @@ foo@boo.com
 #please your name to git repo (this name show in commit)
 MyNickName
 ```
+
+### use outher config
+
+```ssh
+gitchu.sh  --use
+#chose a config
+github-customer-foo-key
+github-customer-boo-key
+github-customer-foo-boo-key
+
+github-customer-foo-key
+```
