@@ -5,7 +5,7 @@
 ```sh
 mkdir -p $HOME/.gitchu
 curl -L https://github.com/TiagoTi/gitchu/releases/download/v0.0.3/gitchu.sh -o $HOME/.gitchu/gitchu && chmod +x $HOME/.gitchu/gitchu
-export PATH=$PATH:$HOME/.gitchu
+export PATH=$PATH:$HOME/.gitchu #or add to path in .bashrc .zshrc
 ```
 
 ## To use
